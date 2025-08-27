@@ -1,0 +1,16 @@
+[package]
+name = "netreconx"
+version = "0.1.0"
+edition = "2021"
+authors = ["Davlatbek Rabbimov"]
+
+[dependencies]
+reqwest = {version = "0.12.15", default-features = false, features = ["json", "blocking", "rustls-tls"]}
+tokio = { version = "1.0", features = ["full"] }
+thiserror = {version = "2.0.12"}
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0"
+trust-dns-resolver = "0.23"
+anyhow = {version = "1.0.97"}
+env = "1.0.1"
+rayon = "1.10.0"
