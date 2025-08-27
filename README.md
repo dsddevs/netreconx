@@ -1,4 +1,8 @@
 # 🕵️‍♀️ NetReconX — Intelligent Web Reconnaissance Tool
+[![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org)
+[![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](LICENSE)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+
 
 **NetReconX** (formerly WebScan) is a high-performance, Rust-based tool designed for modern web reconnaissance and infrastructure analysis. It helps cybersecurity professionals, developers, and network administrators uncover hidden subdomains, detect open ports, and analyze SSL/TLS certificates — all with speed, accuracy, and reliability.
 
